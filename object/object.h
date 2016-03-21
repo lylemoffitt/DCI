@@ -1,7 +1,13 @@
+/*
+	Test file for DCI/object
+*/
 
 /*
-https://raw.githubusercontent.com/D-Programming-Language/dmd/7a7687e6e5b46ab9629bcdddb3061478c504ae49/src/root/object.h
+Copied from: https://raw.githubusercontent.com/D-Programming-Language/dmd/7a7687e6e5b46ab9629bcdddb3061478c504ae49/src/root/object.h
 */
+
+
+
 /* Copyright (c) 1999-2014 by Digital Mars
  * All Rights Reserved, written by Walter Bright
  * http://www.digitalmars.com

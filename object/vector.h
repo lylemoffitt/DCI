@@ -1,3 +1,7 @@
+/*
+	Test file for DCI/object
+*/
+
 #include <vector> //see: /usr/include/c++/4.2.1/debug/vector
 #include "object.h"
 
@@ -6,5 +10,5 @@ template class std::vector<RootObject>;
 
 // Explicitly instantiate template methods of template class
 
-#define instantiate( _ret_, _class_name_ ,_method_name_ )
+#define instantiate( _ret_, _class_name_ ,_method_name_ )\
 template _ret_  _class_name_ ## :: ## _method_name_ ## <RootObject>(int);

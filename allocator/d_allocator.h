@@ -1,5 +1,11 @@
-//allocator that calls D's allocator for storage
-// see: https://dlang.org/phobos/std_experimental_allocator.html
+/*
+Notes:
+	- allocator that calls D's allocator for storage
+	- see: https://dlang.org/phobos/std_experimental_allocator.html
+
+To Do:
+	- Replace method bodies with calls to D-lang's std.allocator
+*/
 
 
 /** @file ext/new_allocator.h
